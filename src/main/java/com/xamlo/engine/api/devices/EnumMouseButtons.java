@@ -4,14 +4,19 @@ public enum EnumMouseButtons {
 	
 	MOUSE_BUTTON_UNCKNOWN(-1, "MOUSE_BUTTON_UNCKNOWN"),
 	
+	//Left mouse button
     MOUSE_BUTTON_1(0, "MOUSE_BUTTON_1"),
     
+    //Right mouse button
     MOUSE_BUTTON_2(1, "MOUSE_BUTTON_2"),
     
+    //Middle mouse button
     MOUSE_BUTTON_3(2, "MOUSE_BUTTON_3"),
     
+    //Back
     MOUSE_BUTTON_4(3, "MOUSE_BUTTON_4"),
     
+    //Next
     MOUSE_BUTTON_5(4, "MOUSE_BUTTON_5"),
     
     MOUSE_BUTTON_6(5, "MOUSE_BUTTON_6"),

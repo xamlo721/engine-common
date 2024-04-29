@@ -23,6 +23,10 @@ public interface IMouse {
 	public Vector2f getLockedCursorPosition();
 
 	public void setLockedCursorPosition(Vector2f lockedCursorPosition);
+	
+	public Vector2f getCursorPositionDiff();
+
+	public void setCursorPositionDiff(Vector2f cursorPosition);
 
 	public float getScrollOffset();
 

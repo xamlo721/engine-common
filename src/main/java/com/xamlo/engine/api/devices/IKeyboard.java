@@ -1,6 +1,6 @@
 package com.xamlo.engine.api.devices;
 
-import java.util.ArrayList;
+import java.util.Set;
 
 public interface IKeyboard {
 
@@ -10,8 +10,10 @@ public interface IKeyboard {
 	
 	public boolean isKeyHold(EnumKeyboardButtons key);
 
-	public ArrayList<EnumKeyboardButtons> getPushedKeys();
+	public Set<EnumKeyboardButtons> getPushedKeys();
 
-	public ArrayList<EnumKeyboardButtons> getKeysHolding();
+	public Set<EnumKeyboardButtons> getKeysHolding();
+
+	public Set<EnumKeyboardButtons> getReleasedKeys();
 	
 }
