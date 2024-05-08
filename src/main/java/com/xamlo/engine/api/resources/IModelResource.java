@@ -7,10 +7,22 @@ public interface IModelResource<I> extends IResource<I> {
      * @return количество полигонов модели
      */
     int getPolygonCount();
+    
+    /*
+     * Возвращает массив данных вершин
+     */
+    IVertex[] getVertices();
+    
+    /**
+     * Возвращает массив индексов модели
+     * @return
+     */
+    int[] getIndices();
 
     /**
-     * Установить количество полигонов модели.
-     * @param count количество полигонов модели
+     * Возвращает структуру вершин, описанных в getVertices
+     * @return
      */
-    void setPolygonCount(int count);
+	IVertexStructure getStructure();
+    
 }

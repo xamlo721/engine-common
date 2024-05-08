@@ -5,4 +5,7 @@ public interface IResourceLoader<I> {
     ITextureResource<I> loadTexture(I identifier);
 
     IShaderResource<I> loadShader(I identifier);
+    
+    IModelResource<I> loadModel(I identifier);
+    
 }

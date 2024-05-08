@@ -13,4 +13,5 @@ public interface IResource<I> {
      * @return местоположение ресурса
      */
     I getIdentifier();
+    
 }
