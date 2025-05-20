@@ -88,7 +88,7 @@ public class VertexBufferObject extends AbstractVertexBuffer {
 	          *  offset: Задает смещение по отношению к первому компоненту в буфере.
 	          */
 			glVertexAttribPointer(attribArrayIndex, attr.getDimensionSize().value(), attr.getType().getOpenGLValue(), attr.isNormalized(), structure.getVertexStride(), offset);
-			System.out.println("Register VOBAttib : " + attribArrayIndex + " " + attr.getDimensionSize().value() + " " + attr.getType().getOpenGLValue() + " " + attr.isNormalized() + " " + structure.getVertexStride() + " " + offset);
+			//System.out.println("Register VOBAttib : " + attribArrayIndex + " " + attr.getDimensionSize().value() + " " + attr.getType().getOpenGLValue() + " " + attr.isNormalized() + " " + structure.getVertexStride() + " " + offset);
 			/**
 			 * Учитываем смещение данных в байтах для следующего аттрибута
 			 */
